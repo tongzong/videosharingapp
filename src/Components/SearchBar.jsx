@@ -10,11 +10,11 @@ export default function SearchBar({ onSubmit }){
         if (event.key === "Enter"){
             onSubmit(searchTerm)
         }
-    }
+    };
 
     
     return (
-        <Paper elevation={10} styling={{padding: "25px"}}>
+        <Paper elevation={6} styling={{ padding: "25px" }}>
             <TextField 
                 fullWidth
                 label = "Search..."
