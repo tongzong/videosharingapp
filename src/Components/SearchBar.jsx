@@ -17,7 +17,7 @@ export default function SearchBar({ onSubmit }){
         <Paper elevation={6} styling={{ padding: "25px" }}>
             <TextField 
                 fullWidth
-                label = "Search..."
+                label = "enter video title"
                 value={searchTerm}
                 onChange={handleChange}
                 onKeyDown={onKeyDown}
