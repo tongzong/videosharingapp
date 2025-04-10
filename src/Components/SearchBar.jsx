@@ -7,7 +7,7 @@ export default function SearchBar({ onSubmit }){
     const handleChange = (event) => setSearchTerm(event.target.value);
 
     const onKeyDown = (event) => {
-        if (event.key === "Enter"){
+        if (event.key === "Enter   "){
             onSubmit(searchTerm)
         }
     };
